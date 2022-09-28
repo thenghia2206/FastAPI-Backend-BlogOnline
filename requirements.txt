@@ -1,5 +1,6 @@
 ﻿anyio==3.6.1
 api==0.0.7
+psycopg2==2.9.3
 asgiref==3.5.2
 asttokens==2.0.8
 autopep8==1.7.0
