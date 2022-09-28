@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 import psycopg2
 
-# SQLALCHEMY_DATABASE_URL = 'mysql+mysqldb://root:22062001@127.0.0.1/test'
+
 SQLALCHEMY_DATABASE_URL = "postgresql://xzcosycukzzrff:cc1a8d2008eac70318ed5e40494625b9202177852500dec83059a7ebbefadde3@ec2-54-159-175-38.compute-1.amazonaws.com:5432/dcidjhp5s2smfd"
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
